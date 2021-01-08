@@ -86,7 +86,7 @@ El "triple igual" (`===`) no debe confundirse con un solo signo igual (que indic
 1 === 1;          // true
 1 === '1';        // false
 'perro' === 'perro';  // true
-'perro' === 'Perro';  // false
+'perro' !== 'Perro';  // false
 ```
 
 El último operador de comparación que nos gustaría presentarle tiene dos partes.
@@ -99,7 +99,7 @@ Con eso en mente, podemos introducir el "no es igual" (`!==`). Esto devolverá v
 1 !== 1;          // false
 1 !== '1';        // true
 'perro' !== 'perro';  // false
-'perro' !== 'Perro';  // true
+'perro' === 'Perro';  // true
 ```
 
 ## Flujos de control (continuación)

@@ -1,0 +1,33 @@
+# HOMEWORKS JavaScript I
+
+
+* variavles = una variable es cuando le doy nombre a un valor o información para poder invocarlo, 
+dicho valor puede cambiar, rescribirse, reasignarse
+
+* string "cadena" es un texto que esta encerrado entre comillas simples o dobles 'Hola',"Hola" y el 
+texto pueden ser letras, numeross y simbolos.
+
+* las funciones son parte de un programa el cual se le asigna un nombre preferentemente enreferencia
+a lo que hace, por ejemplo FUNCIÓN suma donde suma seria el nombre de la funcionseguido de abrir y
+cerrar parentesis( ) en donde el contenido que se encierre dentro de los parentesis son los 
+* (ARGUMENTOS), que es donde se pueden agregagar variables, en este caso deberiamos tener un minimo
+de dos variables en el argumento ej: (a, b) para poder sumarlos, nos quedaria función suma (a, b)
+y luego viene el codigo que va encerrado entre llaves que es donde vamos a establecer la forma en
+que interactuamos con las variables y otros datos o funciones ya preestablecidas por el lenguaje como
+* RETURN que es la forma en que salen los datos de una función, es para que nos devuelva un 
+resultado,  en nuestro ejemplo quedaria return sumatoria para que nos pueda devolver el valor 
+de la variable que creamos como sumatoria de (a + b), nuestra funcion quedaria algo asi:
+
+    funcion suma (a, b) {
+        var sumatoria = (a + b);
+        Return sumatoria;
+}
+
+* una DECLARACION IF es una condición que si se cumple le dice al programa que ejecute un
+bloque de codigo y si no se cumple, sigue con otras condiciones o se detiene
+la función, se usa para tomar desiciones en una operacion logica, siendo esta una forma de hacer
+que nuestra función verifique si algo es "true" verdadero o "false" falso, a esto se lo llama
+* VALORES BOOLEANOS o logica booleana `true`, `false` 0 o 1, se cumple o no se cumple una 
+condición,este termino viene dela algebra de boole en honor a George Boole quien fue el primero
+en definirla como un sistema lógico, esta estructura algebraica esquematiza las operaciones 
+lógicas binarias
