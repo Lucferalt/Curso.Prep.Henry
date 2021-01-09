@@ -3,7 +3,6 @@
 * `for` es un bucle que consta de tres partes para que pueda funcionar, primero tenemos que declarar una variable para poder asignarle un valor, luego se le asigna una condicion y despues incrementamos el valor de la variable usando el operador  `++` todo essto iria entre parentesis  y separado por punto y coma y nos quedaria algo asi
 for ( let i = 0; i < 5; i++ ){
     consol.log(i);
-
 }    
 
 * `&&`, `||`, `!` son operadores logicos y se usa para que compare dos expresiones
