@@ -77,7 +77,7 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
   if (numero % 3 === 0 && numero % 5 === 0){
-    return "fizzbuzz ";
+    return "fizzbuzz";
   } else if (numero % 5 === 0){
     return "buzz";
   } else if (numero % 3 === 0){
@@ -93,6 +93,17 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+for (let i = 2; i <= 100; i++ ){
+  if ( numero < 2) {
+    return false;
+} else if (numero % i === 0){
+    return false;
+} else {
+    return true;
+}
+ 
+}
+ 
 }
 
 
